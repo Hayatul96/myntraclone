@@ -8,7 +8,7 @@ function FilterMen() {
     const [genFilter, setgenFilter] = useState('');
     const [priceFilter, setpriceFilter] = useState(null);
     const [discFilter, setdiscFilter] = useState(0);
-    const [catFilter, setcatFilter] = useState('');
+    const [setcatFilter] = useState('');
 
 
     const handleBrand = (e) => {
